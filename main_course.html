@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link href="./assets/css/Menu.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+    </a>
+    <ul class="navbar-links">
+      <li>
+        <a href="index.html" class="home_links1" onclick="toggle_active_class1()">Home</a>
+      </li>
+      <li>
+        <a href="index.html" class="home_links2" onclick="toggle_active_class2()">Menu</a>
+      </li>
+      <li>
+        <a href="chef.html" class="home_links3" onclick="toggle_active_class3()">Our Chefs</a>
+      </li>
+      <li>
+        <a href="Blog.html" class="home_links4" onclick="toggle_active_class4()">Blog</a>
+      </li>
+      <li>
+        <a href="Contact_Us.html" class="home_links5" onclick="toggle_active_class5()">Contact us</a>
+      </li>
+      <li>
+        <a href="aboutus.html" class="home_links6" onclick="toggle_active_class6()">About us</a>
+      </li>
+      <li>
+        <a href="Food_Safety.html" class="home_links7" onclick="toggle_active_class7()">Food Safety</a>
+      </li>
+      <li>
+        <a href="booktable.html" class="home_links8" onclick="toggle_active_class8()">Book A Table!!!</a>
+      </li>
+  </nav>
+
+  <!-- /* Menu Structure */ -->
+
+  <div class="container">
+    <div class="menu">
+      <center>
+        <h1 class="pmenu_heading">Main Course</h1> <br><br><br>
+      </center>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="./assets/images/indian_curry.jpg" alt="indian_curry">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Mix Vegetable</span>
+              <span class="menu-item-price">₹290</span>
+            </h3>
+            <p class="menu-item-description">
+              Mixed Vegetable curry is a simple North Indian curry dish made with a variety of fresh vegetables in an
+              onion tomato gravy flavored with spices and herbs
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="./assets/images/manchurian_spaghetti.jpg" alt="manchurian_spaghetti">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Manchurian</span>
+              <span class="menu-item-price">₹300</span>
+            </h3>
+            <p class="menu-item-description">
+              Manchurian is a class of Indian Chinese dish made by roughly chopping and deep-frying ingredients such as
+              chicken, cauliflower (gobi), prawns, fish, mutton, and paneer, and then sautéeing them in a sauce flavored
+              with soy sauce.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2 class="menu-group-heading"></h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="assets/images/veg_biryani.jpg" alt="veg_biryani">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Veg Biryani</span>
+              <span class="menu-item-price">₹290</span>
+            </h3>
+            <p class="menu-item-description">
+              Vegetable Biryani is a dish made of with basmati rice and loads of vegetables like carrot, peas and loads
+              of indian spices.
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="assets/images/palak_paneer.jpg" alt="palak_paneer">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Palak Paneer</span>
+              <span class="menu-item-price">₹150</span>
+            </h3>
+            <p class="menu-item-description">
+              Palak Paneer is a Indian curry with Vegetables, Panner, Palak Paste, seasonings and spices. It's one of
+              our famous Panner dish.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2 class="menu-group-heading"></h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="assets/images/dal_makhni.jpg" alt="dal_makhni">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Dal Makhni</span>
+              <span class="menu-item-price">₹180</span>
+            </h3>
+            <p class="menu-item-description">
+              Dal Makhni is a versatile and flavorful curry made primarily from urad dal (black lentils) and other
+              pulses, and includes butter and cream along with other ingredients to enhance its taste and texture.
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="assets/images/south_feast.jpg" alt="south_feast">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">South Feast</span>
+              <span class="menu-item-price">₹220</span>
+            </h3>
+            <p class="menu-item-description">
+              South Feast is a whole dose of south food includes Dosa, Idli, Sambhar, Tomato Chutney with Spice Podi.
+              Bring you the taste of soth indian.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer" id="contact">
+    <hr>
+    <div class="social-media">
+      <span>Connect With Grilli Restaurant On</span><br>
+      <!-- <span class="connect">Connect With Me On</span> -->
+      <a href="https://facebook.com" style="border: none;" target="_blank">
+        <img src="assets/images/social media/fb.jpg" alt="" srcset="">
+      </a>
+      <a href="https://instagram.com" style="border: none;" target="_blank">
+        <img src="assets/images/social media/insta.png" alt="" srcset="">
+      </a>
+      <a href="https://snapchat.com" style="border: none;" target="_blank">
+        <img src="assets/images/social media/snap.png" alt="" srcset="">
+      </a>
+      <span>Contact us with:8140333669 Email:grilli@gmail.com</span>
+    </div>
+  </div>
+</body>
+</html>

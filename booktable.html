@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link href="./assets/css/booktable.css" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar Section -->
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+    </a>
+    <ul class="navbar-links">
+      <li>
+        <a href="index.html" class="home_links1" onclick="toggle_active_class1()">Home</a>
+      </li>
+      <li>
+        <a href="index.html" class="home_links2" onclick="toggle_active_class2()">Menu</a>
+      </li>
+      <li>
+        <a href="chef.html" class="home_links3" onclick="toggle_active_class3()">Our Chefs</a>
+      </li>
+      <li>
+        <a href="Blog.html" class="home_links4" onclick="toggle_active_class4()">Blog</a>
+      </li>
+      <li>
+        <a href="Contact_Us.html" class="home_links5" onclick="toggle_active_class5()">Contact us</a>
+      </li>
+      <li>
+        <a href="aboutus.html" class="home_links6" onclick="toggle_active_class6()">About us</a>
+      </li>
+      <li>
+        <a href="Food_Safety.html" class="home_links7" onclick="toggle_active_class7()">Food Safety</a>
+      </li>
+      <li>
+        <a href="booktable.html" class="home_links8" onclick="toggle_active_class8()">Book A Table!!!</a>
+      </li>
+  </nav>
+  <main>
+    <form id="bookingForm">
+      <div class="form-group"><br><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+      <div class="form-group">
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Book Table" class="submit_btn">
+      </div>
+    </form>
+  </main>
+  <div class="footer" id="contact">
+    <hr>
+    <div class="social-media">
+      <span>Connect With Grilli Restaurant On</span><br>
+      <!-- <span class="connect">Connect With Me On</span> -->
+      <a href="https://facebook.com" style="border: none;" target="_blank">
+        <img src="assets/images/social media/fb.jpg" alt="" srcset="">
+      </a>
+      <a href="https://instagram.com" style="border: none;" target="_blank">
+        <img src="assets/images/social media/insta.png" alt="" srcset="">
+      </a>
+      <a href="https://snapchat.com" style="border: none;" target="_blank">
+        <img src="assets/images/social media/snap.png" alt="" srcset="">
+      </a>
+      <span>Contact us with:8140333669 Email:grilli@gmail.com</span>
+    </div>
+  </div>
+</body>
+</html>

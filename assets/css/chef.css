@@ -1,0 +1,222 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fae25e;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Shows scroll behaviour while navigating through the website. It will show a smooth effect while scrolling up and down or while clicking on a particular section like home, body, brand etc */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  /* Text decorations like underline will be removed */
+  list-style: none;
+  /* Bullets of lists will not be shown*/
+}
+
+nav {
+  height: 55px;
+  width: 100%;
+  /* background: #212121;  */
+  background: black;
+  position: fixed;
+  /* It will make the position of the navbar fixed. */
+  top: 0;
+  z-index: 1000;
+  /* It gives the position of the element among layers. */
+  border-bottom: 1px solid #fae25e;
+}
+
+nav ul {
+  float: right;
+  /* Float right - the elements will be displayed on the right side */
+  margin-right: 40px;
+}
+
+/* Styling of navbar list */
+nav li {
+  display: inline-block;
+  margin: 0 2px;
+  line-height: 55px;
+}
+
+/* Styling of links in the navbar */
+nav a {
+  color: white;
+  font-size: 16px;
+  /* text-transform: unset; */
+  border: 1px solid transparent;
+  padding: 4px 7px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/* Styling of hamburger icon on the navbar when screen becomes small */
+nav #icon {
+  /* margin: auto; */
+  line-height: 45px;
+  float: left;
+  top: 0;
+  display: none;
+  cursor: pointer;
+  /* Change the type of cursor when it is placed on a particular icon or element */
+}
+
+.navbar-links a:hover {
+  color: #fae25e;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .logo {
+  max-width: max-content;
+  margin-inline: auto;
+  margin-block-end: 60px;
+}
+
+.home-card img {
+  height: 120%;
+  width: 100vw;
+}
+
+/* Styling of welcome heading */
+.welcome_heading {
+  color: #04444d;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/* Styling of cards */
+.card {
+  margin-top: 3vh;
+  width: 100vw;
+  /* background-color: white; */
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-radius: 50px;
+  border: 1px solid gray;
+  padding-bottom: 2vw;
+}
+
+/* Styling of paragraph inside card */
+.card p {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  word-spacing: 0%;
+}
+
+.padding-class {
+  padding-top: 60px;
+}
+
+.button {
+  border: none;
+  color: black;
+  background-color: #fae25e;
+  padding: 13px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: black;
+  background: rgb(252, 186, 3);
+  transform: scale(1.1);
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* background : #b6b3b3 !important; */
+  background: black;
+  overflow-x: hidden;
+  /* It will remove horizontal scrolling. */
+}
+
+.pmenu_heading {
+  padding-top: 3%;
+  color: #fae25e;
+  text-align: center;
+  font-size: 3vw;
+  width: fit-content;
+  border-bottom: 2px solid white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+  border: 5px solid;
+  color: #fae25e;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 2vw;
+}
+
+.footer {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #0f0f0f;
+}
+
+.footer hr {
+  width: 100%;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media img {
+  width: 30px;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.connect {
+  color: white;
+}
+
+.social-media span {
+  color: white;
+}

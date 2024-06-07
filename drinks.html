@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link href="./assets/css/Menu.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar Section -->
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+    </a>
+    <ul class="navbar-links">
+      <li>
+        <a href="index.html" class="home_links1" onclick="toggle_active_class1()">Home</a>
+      </li>
+      <li>
+        <a href="index.html" class="home_links2" onclick="toggle_active_class2()">Menu</a>
+      </li>
+      <li>
+        <a href="chef.html" class="home_links3" onclick="toggle_active_class3()">Our Chefs</a>
+      </li>
+      <li>
+        <a href="Blog.html" class="home_links4" onclick="toggle_active_class4()">Blog</a>
+      </li>
+      <li>
+        <a href="Contact_Us.html" class="home_links5" onclick="toggle_active_class5()">Contact us</a>
+      </li>
+      <li>
+        <a href="aboutus.html" class="home_links6" onclick="toggle_active_class6()">About us</a>
+      </li>
+      <li>
+        <a href="Food_Safety.html" class="home_links7" onclick="toggle_active_class7()">Food Safety</a>
+      </li>
+      <li>
+        <a href="booktable.html" class="home_links8" onclick="toggle_active_class8()">Book A Table!!!</a>
+      </li>
+  </nav>
+  <!-- /* Menu Structure */ -->
+  <div class="container">
+    <div class="menu">
+      <center>
+        <h1 class="pmenu_heading">Drinks</h1> <br><br><br>
+      </center>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="./assets/images/oreo.jpg" alt="Oreo Shake">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Oreo Shake</span>
+              <span class="menu-item-price">₹200</span>
+            </h3>
+            <p class="menu-item-description">
+              A deliciously creamy Oreo milkshake made by blending milk, ice cream, and cookies together for chilled
+              drink.
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="./assets/images/lassi.jpg" alt="lassi">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Mango lassi</span>
+              <span class="menu-item-price">₹250</span>
+            </h3>
+            <p class="menu-item-description">
+              Mango Lassi is Indian summer drink with the sweetness of mangoes with the tanginess of yogurt. Creamy,
+              refreshing Mango Lassi recipe made with ripe mangoes, yogurt and flavorings.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2 class="menu-group-heading"></h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="assets/images/cold_chocolate.jpg" alt="cold_chocolate">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Cold Chocolate</span>
+              <span class="menu-item-price">₹180</span>
+            </h3>
+            <p class="menu-item-description">
+              A refreshing recipe of Iced Chocolate, a perfect summer drink with chocolate & whipped cream.
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="assets/images/strawberry.jpg" alt="strawberry">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">strawberry Shake</span>
+              <span class="menu-item-price">₹150</span>
+            </h3>
+            <p class="menu-item-description">
+              Strawberry Milkshake is a delicious drink made with strawberries, milk, ice cream and flavoring
+              ingredients like vanilla extract or strawberry syrup.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2 class="menu-group-heading"></h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="assets/images/rose_lassi.jpg" alt="rose_lassi">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Rose Lassi</span>
+              <span class="menu-item-price">₹160</span>
+            </h3>
+            <p class="menu-item-description">
+              Rose lassi is a fragrant, refreshing and cooling lassi variety made with fresh curd, rose petals and rose
+              syrup.
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="assets/images/badam_milk.jpg" alt="badam_milk">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Kesar Milk</span>
+              <span class="menu-item-price">₹140</span>
+            </h3>
+            <p class="menu-item-description">
+              Saffron Milk is a traditional Indian beverage where milk is flavored with saffron with Lots of dried nuts
+              and fruits are added to give it a crunch and make it healthier and Rich.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer" id="contact">
+    <hr>
+    <div class="social-media">
+      <span>Connect With Grilli Restaurant On</span><br>
+      <!-- <span class="connect">Connect With Me On</span> -->
+      <a href="https://facebook.com" style="border: none;" target="_blank">
+        <img src="assets/images/social media/fb.jpg" alt="" srcset="">
+      </a>
+      <a href="https://instagram.com" style="border: none;" target="_blank">
+        <img src="assets/images/social media/insta.png" alt="" srcset="">
+      </a>
+      <a href="https://snapchat.com" style="border: none;" target="_blank">
+        <img src="assets/images/social media/snap.png" alt="" srcset="">
+      </a>
+      <span>Contact us with:8140333669 Email:grilli@gmail.com</span>
+    </div>
+  </div>
+</body>
+</html>
